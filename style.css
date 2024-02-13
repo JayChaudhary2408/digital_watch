@@ -1,3 +1,7 @@
+@font-face {
+    font-family: segment7;
+    src: url(./Segment7Standard.woff2);
+}
 
 html{
     background:skyblue;
