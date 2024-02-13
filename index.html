@@ -1,25 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital Watch</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
-    
-</head>
-<body>
-    <div class="clock">
-        <div class="clock-face">
-            <div class="hand hour"></div>
-            <div class="hand min"></div>
-            <div class="hand sec"></div>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Digital Watch</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Sofia">
+
+    </head>
+    <body>
+        <div class="clock">
+            <div class="clock-face">
+                <div class="hand hour"></div>
+                <div class="hand min"></div>
+                <div class="hand sec"></div>
+            </div>
+
+        </div>
+        <div><p id="time"></p>
+            <label for="radioBtn1">AM</label>
+            <input type="radio" id="radioBtn1" name="radioGroup" value="option1">
+            <label for="radioBtn2">PM</label>
+            <input type="radio" id="radioBtn2" name="radioGroup" value="option2">
         </div>
         
-    </div>
-    <p id="time"></p>  
-</body>
+    </body>
 
 </html>

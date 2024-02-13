@@ -49,6 +49,7 @@ body{
 p{
     font-size: 100px;
     color: red;
+    margin: 0;
 }
 @keyframes blink {
     0% { opacity: 1; }
